@@ -1,10 +1,10 @@
-# Sora 2 Transformation Clip
+# Transformation Clip (Kling or Gemini Omni Flash)
 
-A six-second Before-to-After video for Sora 2. The transformation format is one of the proven static and short-form video conventions for subscription apps: viewer sees the bad state, then the good state, with a clean match-cut between them.
+A six-second Before-to-After video for Kling Video 3.0 or Google's Gemini Omni Flash (OpenAI shut down Sora 2 and its API on 24 September 2026). The transformation format is one of the proven static and short-form video conventions for subscription apps: viewer sees the bad state, then the good state, with a clean match-cut between them.
 
 ## How to use
 
-Paste into Sora 2. Substitute the bracketed bad-state and good-state to fit your vertical. Keep the match-cut structure.
+Paste into Kling or Gemini Omni Flash. Substitute the bracketed bad-state and good-state to fit your vertical. Keep the match-cut structure.
 
 ## The prompt
 

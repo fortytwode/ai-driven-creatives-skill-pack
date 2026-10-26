@@ -9,8 +9,8 @@ Four skills:
 | Skill | What it does |
 |---|---|
 | **hook-maker** | Generates ad hooks across text, visual, and spoken layers using the 3C Principle and the 4-Layer Hook System. |
-| **script-maker** | Generates direct-response scripts using the Before / After / Now / Punchline (BANP) structure. Refuses PAS, BAB, AIDA defaults. |
-| **visual-director** | Builds production-ready prompts for Midjourney, Gemini 3 Pro Image, Sora 2, Runway Gen-4, and ElevenLabs. |
+| **script-maker** | Generates direct-response scripts using the Setup / Shift / Proof / Payoff structure. Avoids autopilot PAS, BAB, AIDA templates. |
+| **visual-director** | Builds production-ready prompts for Midjourney, Gemini image models, Kling or Gemini Omni Flash, Runway Gen-4.5, and ElevenLabs. |
 | **creative-curator** | Walks any concept through three phases: drafting (before generation), production (during), curation (before shipping). |
 
 Each skill is self-contained: a `SKILL.md` entry point plus the underlying prompts or checklists.
@@ -36,9 +36,13 @@ Each skill folder contains a `prompts/` (or `checklists/`) directory with the un
 
 - **3C Principle** (Context, Clarity, Curiosity): every hook needs all three in the first second. Lives in `hook-maker/SKILL.md`.
 - **4-Layer Hook System** (Visual, Text, Verbal, Audio): the strongest hooks stack layers intentionally. Lives in `hook-maker/SKILL.md`.
-- **Before / After / Now / Punchline (BANP)**: the four-part DR script structure that replaces PAS, BAB, AIDA. Lives in `script-maker/SKILL.md`.
+- **Setup / Shift / Proof / Payoff**: the four-beat DR script structure, constrained by the bet and the body craft. Lives in `script-maker/SKILL.md`.
 - **The eight iteration axes**: messaging, background, duration, music, VO, animation, scene order, visual hook treatment. Lives in `creative-curator/SKILL.md`.
 - **The negative-space rule**: tell the AI what NOT to do; the forbidden list is the brief. Lives in `visual-director/SKILL.md`.
+
+## Changelog
+
+- **v1.1.0 (October 2026):** script-maker moves from Before / After / Now / Punchline to Setup / Shift / Proof / Payoff, matching the guide; `banp-script-maker.md` is now `script-maker.md`. Sora 2 (shut down 24 September 2026) replaced by Kling Video 3.0 or Gemini Omni Flash; `sora-transformation-clip.md` is now `transformation-clip.md`.
 
 ## License
 

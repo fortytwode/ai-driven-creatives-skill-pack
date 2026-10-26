@@ -1,6 +1,6 @@
 ---
 name: visual-director
-description: Build production-ready prompts for AI image, video, and audio tools. Covers Midjourney v7 (stylized stills), Gemini 3 Pro Image (photorealistic scenes), Sora 2 (short generative video), Runway Gen-4 (image-to-video, motion control), and ElevenLabs (voice cloning, TTS with emotional direction). Enforces the negative-space rule. Use when briefing AI tools for ad creative production.
+description: Build production-ready prompts for AI image, video, and audio tools. Covers Midjourney (stylized stills), Gemini image models (photorealistic scenes), Kling Video 3.0 or Gemini Omni Flash (short generative video), Runway Gen-4.5 (image-to-video, motion control), and ElevenLabs (voice cloning, TTS with emotional direction). Enforces the negative-space rule. Use when briefing AI tools for ad creative production.
 ---
 
 # Visual Director
@@ -21,10 +21,10 @@ Then route to the right tool and prompt template:
 
 | Use case | Tool | Prompt file |
 |---|---|---|
-| Stylized destruction-theme still | Midjourney v7 | `prompts/midjourney-destruction-hook.md` |
+| Stylized destruction-theme still | Midjourney | `prompts/midjourney-destruction-hook.md` |
 | Photorealistic cluttered/pain-point shot | Gemini 3 Pro Image | `prompts/gemini-cluttered-desk.md` |
-| Short generative transformation video | Sora 2 | `prompts/sora-transformation-clip.md` |
-| Animate a static mockup | Runway Gen-4 | `prompts/runway-mockup-animator.md` |
+| Short generative transformation video | Kling or Gemini Omni Flash | `prompts/transformation-clip.md` |
+| Animate a static mockup | Runway Gen-4.5 | `prompts/runway-mockup-animator.md` |
 | Voiceover with emotional direction | ElevenLabs | `prompts/elevenlabs-vo-direction.md` |
 
 ## The negative-space rule
@@ -48,7 +48,7 @@ The model's defaults are everyone else's defaults. The forbidden list is what ma
 
 - Midjourney for mood
 - Gemini for accuracy
-- Sora for motion
+- Kling or Gemini Omni Flash for motion
 - Runway for animating stills
 - ElevenLabs for voice
 - Pika for stylized animation
@@ -60,7 +60,7 @@ The model's defaults are everyone else's defaults. The forbidden list is what ma
 After generation, ask: is the seed wrong, or is it 90% right with one fixable element?
 
 - **Regenerate** if subject, scene, tone, or composition is fundamentally wrong.
-- **Edit** if 90% is right (overlay zone, color, dollar value, hand position, distracting clutter). Use inpainting in Sora/DALL-E, color correction in Photoshop/Figma, compositing in After Effects/CapCut.
+- **Edit** if 90% is right (overlay zone, color, dollar value, hand position, distracting clutter). Use inpainting in GPT Image or Nano Banana, color correction in Photoshop/Figma, compositing in After Effects/CapCut.
 
 Most teams over-regenerate. Edit until you can't, then regenerate.
 

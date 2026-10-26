@@ -6,7 +6,7 @@ Run this DURING AI generation. Production is the AI's job; the human's job in th
 
 - [ ] **Generating across the eight axes simultaneously, not one at a time.** Hook copy, background color, duration, music, VO type, scene order, transition style, visual hook treatment.
 
-- [ ] **Scripts using BANP, not training-data defaults.** Every prompt explicitly forbids PAS, BAB, AIDA. Constrains to Before / After / Now / Punchline.
+- [ ] **Scripts built on Setup / Shift / Proof / Payoff, not training-data defaults.** No autopilot PAS, BAB, AIDA. Each beat constrained by the bet and the craft.
 
 - [ ] **Strategy layer is constant across variants.** Same angle, same hook layer assignments, same format. Vary the production layer only. This is what makes test results readable.
 
@@ -14,7 +14,7 @@ Run this DURING AI generation. Production is the AI's job; the human's job in th
 
 - [ ] **Aspect ratio specified in every visual prompt.** 4:5 for Meta feed, 9:16 for Reels and TikTok, 1:1 for square. The model defaults to square or 16:9 if you don't specify.
 
-- [ ] **Generating in the right tool for the job.** Midjourney for mood, Gemini for accuracy, Sora for motion, Runway for animating stills, ElevenLabs for voice, Claude for rule-following, ChatGPT for speed.
+- [ ] **Generating in the right tool for the job.** Midjourney for mood, Gemini for accuracy, Kling or Gemini Omni Flash for motion, Runway for animating stills, ElevenLabs for voice, Claude for rule-following, ChatGPT for speed.
 
 - [ ] **Stopping at the right ceiling.** Twelve to twenty variants per concept across three formats is usually right. Beyond that, you're diluting learning.
 
