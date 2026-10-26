@@ -20,7 +20,7 @@ Run this BEFORE any AI generation. Drafting is where the strategy lives. If a br
 
 - [ ] **Format is fixed.** Discovery, Transformation, Progression, Split-screen, Listicle, or Wall of Text. Format is set at brief time, not generation time.
 
-- [ ] **Body copy structure is BANP.** Before / After / Now / Punchline. 45 to 65 words. Conversational, first-person. NOT PAS, BAB, or AIDA.
+- [ ] **Body copy structure is Setup / Shift / Proof / Payoff.** 45 to 65 words. Conversational, first-person. Not autopilot PAS, BAB, or AIDA.
 
 - [ ] **Negative space is listed.** What the AI is NOT allowed to do. No faces. No actor looking shocked. No invented stats. No stock-music-sounding tracks. No off-brand props or palette. The forbidden list is the brief.
 
